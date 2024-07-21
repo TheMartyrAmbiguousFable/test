@@ -5,15 +5,9 @@
 
 ### 1. Install MongoDB
 
-- **Step 1:** Download MongoDB from the [MongoDB Download Center](https://www.mongodb.com/try/download/community).
+- **Step 1.**  https://www.mongodb.com/try/download/community Download the installer from here 
 
-- **Step 2:** Follow the installation instructions for MongoDB on Windows.
-
-- **Step 3:** After installation, ensure MongoDB is added to your system's PATH environment variable. Follow [these instructions](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/#set-path-to-the-mongodb-executables) to set it up.
-
-- **Step 4.**  https://www.mongodb.com/try/download/community Download the installer from here 
-
-- **Step 5.**  On the Choose setup type screen select *complete* and on the service configuration screen select *Run Service as Network Service User*
+- **Step 2.**  On the Choose setup type screen select *complete* and on the service configuration screen select *Run Service as Network Service User*
 
 **IF YOU ARE UNABLE TO INSTALL MONGO DB REACH OUT TO a1879980@adelaide.edu.au for connection URL**
 ### 2. Clone the Repository
