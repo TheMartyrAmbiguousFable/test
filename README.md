@@ -9,6 +9,36 @@
 
 - **Step 2.**  On the Choose setup type screen select *complete* and on the service configuration screen select *Run Service as Network Service User*
 
+
+
+## Installing Node.js on Windows
+
+### Step 1: Download Node.js Installer
+
+1. Visit the [Node.js Downloads](https://nodejs.org/en/download/) page.
+2. Download the Windows Installer (`.msi`)
+
+### Step 2: Run the Installer
+
+1. Double-click the downloaded `.msi` installer file to start the installation.
+
+### Step 3: Setup Node.js
+
+1. Follow the steps in the Node.js Setup Wizard:
+   - Click "Next" to begin the installation.
+   - Accept the license agreement and click "Next".
+   - Choose the installation location or use the default and click "Next".
+   - Select the features to install. Ensure "npm package manager" is selected.
+   - Click "Next" and then "Install" to start the installation.
+
+### Step 4: Verify Installation
+
+1. Open Command Prompt (or PowerShell) and verify Node.js and npm installation:
+   ```bash
+   node -v
+   npm -v
+
+
 **IF YOU ARE UNABLE TO INSTALL MONGO DB REACH OUT TO a1879980@adelaide.edu.au for connection URL**
 ### 2. Clone the Repository
 
@@ -34,6 +64,9 @@ cd <Projectdir>/frontend
 npm install --loglevel=error  #if this throws error try npm install --legacy-peer-deps
 npm start
 ```
+
+
+
 
 Further Instructions 
 
