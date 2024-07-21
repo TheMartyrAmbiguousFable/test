@@ -47,9 +47,13 @@ File : .env
 Set env config here 
 
 Mongo_URI : Connect to mongo DB URL
+
 JWT_SECRET : Security Parameter for JWT can be any string
+
 SERVER_NAME :  Name of your own server ex : s10
+
 EXTERNAL_WS_PORT : The port that all other servers are running on ex : 5555 
+
 PORT : The port that you want to run your server on ex : 5555
 
 
