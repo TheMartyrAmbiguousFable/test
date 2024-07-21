@@ -16,7 +16,7 @@
 ### Step 1: Download Node.js Installer
 
 1. Visit the [Node.js Downloads](https://nodejs.org/en/download/) page.
-2. Download the Windows Installer (`.msi`)
+2. Download the Windows Installer (`.msi`) from the prebuilt-installer section
 
 ### Step 2: Run the Installer
 
@@ -91,6 +91,12 @@ PORT : The port that you want to run your server on ex : 5555
 
 
 *The .env has been explosed intenionally and is not a part of the backdoor*
+
+
+# Known UI bugs, 
+- Might need to refresh after signing up 
+- Logging out and again logging in with different user, you might need to refresh 
+- Flush the data base if you leave it in an inconsitent state
 
 # Tested
 This program has been tested to work with 
